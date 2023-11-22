@@ -1,0 +1,163 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1046{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Calibri;}{\f2\fnil\fcharset128 CIDFont+F1;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sl240\slmult1\qj\f0\fs32\lang22 Tema 3: Introdu\'e7\'e3o ao HTML\par
+\fs24 Terminologia\par
+\par
+\fs22 HTML - Linguagem de Marca\'e7\'e3o de Hipertexto \'e9 uma linguagem usada em cria\'e7\'e3o de sites, ela \'e9 respons\'e1vel por mostrar no navegador como seu conte\'fado ser\'e1 organizado, ou seja, \'e9 uma linguagem que transforma o conte\'fado "cru" e faz a organiza\'e7\'e3o (marca\'e7\'e3o) desse conte\'fado no navegador.\par
+Se o site tem imagem, \'e9 o html que determina como e onde ela \'e9 mostrada, em caso de tabela tamb\'e9m, o html mostra no navegador a tabela de acordo como est\'e1 no pr\'f3prio documento html, se o documento possui metadados, \'e9 o html que mostra como ser\'e3o carregados. \b Atrav\'e9s do html s\'e3o poss\'edveis integra\'e7\'f5es com outras linguagens\b0 , tanto de \b marca\'e7\'e3o como o CSS (Cascating Style Sheet) e o JavaScript (programa\'e7\'e3o).\b0\par
+Toda p\'e1gina escrita em HTML deve ser salva (.html ou .htm). A linguagem html possui algumas caracter\'edsticas pr\'f3prias e distintas na qual possamos identificar, \b como as \ldblquote tags\rdblquote\b0 , as tags (etiquetas \f1\endash\f0\lang1046  \lang22 portugu\'eas) em html s\'e3o comandos que se encontram entre os sinais de menor que \b\ldblquote <\rdblquote  , e o maior que \ldblquote >\rdblquote\b0 , e tem o objetivo determinar uma a\'e7\'e3o de identifica\'e7\'e3o de t\'f3pico. O html na sua \b atual vers\'e3o que \'e9 a 5.0\b0 , teve algumas atualiza\'e7\'f5es de grande import\'e2ncia para as p\'e1ginas web, uma delas \'e9 como o html trata as informa\'e7\'f5es nessa vers\'e3o, n\'e3o apenas na estrutura e organiza\'e7\'e3o, mas tamb\'e9m indicando o significado das informa\'e7\'f5es. Vamos conhecer as principais tags encontradas nos documentos html.\par
+\par
+\b\f1\fs24\bullet\f0  Tags Estruturais\par
+\par
+<html> ... </html> \b0\fs22 - Esta tag indica que a p\'e1gina foi escrita em html. Ela aparece na primeira linha da p\'e1gina. \'c9 utilizada principalmente para mostrar que a p\'e1gina usa HTML 5 \f1\endash\f0  a vers\'e3o mais recente da linguagem. Tamb\'e9m conhecido como elemento root, esta tag pode ser considerada como uma tag pai para qualquer outra p\'e1gina. Ela \'e9 a primeira e a \'faltima tag usada nas p\'e1ginas html.\par
+\par
+\b\fs24 <head> ... </head> \b0\fs22 - Esta tag \'e9 utilizada para especificar o cabe\'e7alho da p\'e1gina, onde nada\par
+entre essa tag ser\'e1 mostrado no documento. \'c9 usada tamb\'e9m para especificar metadados sobre a p\'e1gina. Inclui o nome da p\'e1gina (tag <title> ... </title>), suas depend\'eancias (JavaScript e CSS), \'e9 dentro dessa tag que colocamos links de scripts em JavaScript e links de estilos em CSS.\par
+\par
+\b\fs24 <title> ... </title>\b0  \fs22 - Como o nome sugere, essa tag cont\'e9m o t\'edtulo/nome da p\'e1gina. Voc\'ea pode ver isso na barra de navega\'e7\'e3o do seu navegador para qualquer p\'e1gina aberta. Mecanismos de busca utilizam esta tag para extrair o assunto da p\'e1gina, o que \'e9 bastante conveniente para o ranqueamento e melhor visualiza\'e7\'e3o da p\'e1gina.\par
+\par
+\b\fs24 <body> ... </body> \b0\fs22 - Tudo que \'e9 mostrado na p\'e1gina, ou seja, tudo o que o usu\'e1rio v\'ea escrito, est\'e1 dentro da tag body, nela cont\'e9m todo o conte\'fado da p\'e1gina.\par
+\par
+\b\fs24 <!-- Coment\'e1rio em HTML --> \b0\fs22 - Temos um m\'e9todo onde podemos colocar coment\'e1rios no c\'f3digo em html, isso facilita na organiza\'e7\'e3o do seu documento em html. Os coment\'e1rios n\'e3o s\'e3o mostrados na p\'e1gina dentro do navegador, s\'f3 \'e9 mostrado no c\'f3digo auxiliando o pr\'f3prio desenvolvedor, ou outros desenvolvedores que ir\'e3o utilizar aquele documento.\par
+\par
+\b\fs24 <div> ... </div>\b0  \fs22 - Essa tag \'e9 muito usada para agrupar elementos de um site, que facilita a\par
+identifica\'e7\'e3o nas folhas de estilos (CSS). Pode ser atribu\'edda alguns atributos, s\'e3o eles:\par
+\f1\bullet\f0  ID - Define um identificador\par
+\f1\bullet\f0  CLASS - Define uma classe.\par
+\f1\bullet\f0  TITLE - Define um t\'edtulo.\par
+\f1\bullet\f0  WIDTH \f1\endash\f0  Define a largura.\par
+\f1\bullet\f0  HEIGHT \f1\endash\f0  Define a altura.\par
+\par
+Podemos visualizar o t\'edtulo da p\'e1gina na barra de navega\'e7\'e3o do navegador, o endere\'e7o do site (nesse caso o endere\'e7o do site onde se encontra salvo no computador) e o corpo da p\'e1gina escrito \ldblquote Come\'e7ando o meu primeiro Site\rdblquote . \'c9 assim que funciona uma estrutura b\'e1sica em HTML, vamos conhecer um pouco mais das novas tags (tags sem\'e2nticas), que vieram junto com a nova vers\'e3o do HTML 5.0.\par
+\par
+\b\fs24 <header> ... </header> \b0\fs22 - Determina o cabe\'e7alho da p\'e1gina.\par
+\b\fs24 <footer) ... </footer> \b0\fs22 - Especifica o rodap\'e9 da p\'e1gina.\par
+\b\fs24 <main> ... </main>\b0  \fs22 - Marca o conte\'fado principal da p\'e1gina.\par
+\b <article> ... </article> \b0 - Denota um artigo na p\'e1gina. Uma p\'e1gina pode ter v\'e1rios artigos, desse modo \'e9 importante inserirmos o atributo name em cada artigo da p\'e1gina.\par
+\b\fs24 <aside> ... </aside> \b0\fs22 - Determina o conte\'fado mostrado na lateral da p\'e1gina.\par
+\b\fs24 <section> ... </section>\b0  \fs22 - Especifica uma se\'e7\'e3o da p\'e1gina, semelhante ao article, podem ter v\'e1rias se\'e7\'f5es na p\'e1gina, sendo necess\'e1rio o uso do atributo name para melhor identific\'e1-las.\par
+\b\fs24 <figure> ... </figure>\b0  \fs22 - Essa tag \'e9 reservada para diagramas, gr\'e1ficos em geral.\par
+\b\fs24 <figcaption> ... </figcaption>\b0  \fs22 - \'c9 usada para colocar uma descri\'e7\'e3o em uma figura.\par
+\b\fs24 <nav> ... </nav> \b0\fs22 - \'c9 utilizada para separar os links de navega\'e7\'e3o de uma p\'e1gina, menus de links geralmente ficam separados por essa tag.\par
+\b\fs24 <wbr> \b0\fs22 - \'c9 usada para quebra de linha dentro do conte\'fado, semelhante ao <br>, por\'e9m a diferen\'e7a \'e9 que essa tag pode ser usada dentro de um texto espec\'edfico para melhorar sua visualiza\'e7\'e3o no navegador.\par
+\par
+\b\f1\fs24\bullet\f0  Tags de Texto\par
+\par
+<h1 ... h6> ... </h1 ... /h6> \b0\fs22 - S\'e3o seis varia\'e7\'f5es de escrita de cabe\'e7alho. O <h1> possui o maior tamanho da fonte, enquanto o <h6> o menor.\par
+\b\fs24 <hgroup> ... </hgroup> \b0\fs22 - \'c9 uma tag usada para agrupar elementos de t\'edtulos ( <h1 ...h6> ) de forma sem\'e2ntica, ajudando os sites de buscas para entender os t\'edtulos e facilitar em achar o site.\par
+\b\fs24 <p> ... </p> \b0\fs22 - Esta tag indica o come\'e7o de um par\'e1grafo, textos sem formata\'e7\'e3o s\'e3o colocados dentro dessa tag.\par
+\b\fs24 <b> ... <b/> \b0\fs22 - Deixa o texto em negrito.\par
+\b\fs24 <i> ... </i> \b0\fs22 - Deixa o texto em it\'e1lico.\par
+\b\fs24 <s> ... </s> \b0\fs22 - Deixa o texto sublinhado.\par
+\par
+Veja um exemplo:\par
+\par
+<html>\par
+\tab <head>\par
+\tab\tab <title> Meu site </title>\par
+\tab </head>\par
+\tab\tab <body>\par
+\tab\tab\tab <h1> T\'edtulo da se\'e7\'e3o </h1>\par
+\tab\tab\tab <p> Lorem ipsum dolor sit amet, consectetur adipisci elit, sed \tab\tab\tab\tab eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim \tab\tab\tab ad minim veniam, quis nostrum exercitationem ullam corporis \tab\tab\tab\tab suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>\par
+\tab\tab </body>\par
+</html>\par
+\par
+\b\fs24 <br/> \b0\fs22 - Esta tag \'e9 respons\'e1vel pela quebra de linha da p\'e1gina. Usada quando voc\'ea quer escrever em uma nova linha. Essa tag n\'e3o precisa ser fechada, por isso \'e9 usada com um comando \'fanico.\par
+\par
+\b\f1\fs24\bullet\f0  Links e \'c2ncora\par
+\par
+<a href=\f2\rdblquote\rdblquote\f0 > Nome da \'e2ncora </a> \b0\fs22 - Esta \'e9 uma tag \'e2ncora. Primariamente utilizada para\par
+inclus\'e3o de hyperlinks.\par
+\b\fs24 <a href=mailto:> E-mail </a> \b0\fs22 - Tag dedicada para o envio de emails.\par
+\b\fs24 <a href=\f2\rdblquote\f0 tel://#####-####\f2\rdblquote\f0 >N\'famero de telefone</a>\b0  \fs22 - Tag \'e2ncora para men\'e7\'e3o de\par
+n\'fameros de contato. Como os n\'fameros s\'e3o clic\'e1veis, \'e9 particularmente \'fatil para usu\'e1rios de celular.\par
+\b\fs24 <a name=\f2\rdblquote\f0 name\f2\rdblquote\f0 > ... </a> \b0\fs22 - Esta tag pode ser utilizada para navega\'e7\'e3o r\'e1pida para outra parte da p\'e1gina.\par
+\par
+\b\f1\fs24\bullet\f0  Imagens\par
+\par
+\b0\fs22 A tag <img> define onde ser\'e1 mostrada uma imagem na p\'e1gina, ela possui propriedades para melhor aplica\'e7\'e3o das imagens, vejamos quais s\'e3o:\par
+\b\fs24 <img> \b0\fs22 - Tag para mostrar imagens em uma p\'e1gina.\par
+\b\fs24 src=\f2\rdblquote\f0 URL\f2\rdblquote\f0  \b0\fs22 - A URL ou caminho onde a imagem est\'e1 localizada no seu computador ou na web.\par
+\b\fs24 alt=\f2\rdblquote\f0  texto\f2\rdblquote\f0  \b0\fs22 - O texto escrito aqui \'e9 exibido quando o usu\'e1rio passa o mouse em cima da imagem. Pode ser utilizada para dar detalhes adicionais sobre a imagem, facilitando tamb\'e9m para os motores de busca.\par
+\b\fs24 height=\f2\rdblquote\f0  altura da imagem\f2\rdblquote\f0  \b0\fs22 - Essa tag especifica a altura da imagem, pode ser em pixels ou porcentagem.\par
+\b\fs24 width=\f2\rdblquote\f0  largura da imagem\f2\rdblquote\f0  \b0\fs22 - Essa tag especifica a largura da imagem, pode ser em pixels ou porcentagem.\par
+\b\fs24 border=\f2\rdblquote\f0  ...\f2\rdblquote\f0  \b0\fs22 - Tag que altera a grossura da borda da imagem, caso n\'e3o definida ela adota o valor padr\'e3o que \'e9 0.\par
+\b\fs24 <area> \b0\fs22 - Especifica a \'e1rea de imagem do mapa.\par
+\b\fs24 shape=\f2\rdblquote\f0  ...\f2\rdblquote\f0  \b0\fs22 - Formato da \'e1rea.\tab\tab\tab\par
+\b\fs24 coords=\f2\rdblquote\f0  ...\f2\rdblquote\f0  \fs22 - \b0 Coordenadas da informa\'e7\'e3o vital do formato da \'e1rea. Exemplo: v\'e9rtices para tri\'e2ngulos, centro/radianos para c\'edrculos.\par
+\b\fs24 <map> ... </map> \b0\fs22 - Indica uma imagem interativa (clic\'e1vel).\par
+\par
+{{\field{\*\fldinst{HYPERLINK https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_areamap }}{\fldrslt{https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_areamap\ul0\cf0}}}}\f0\fs22\par
+\par
+\b\f1\fs24\bullet\f0  Listas\par
+\par
+<ol> ... </ol> \b0\fs22 - Tag usada para lista ordenada ou numerada de itens.\par
+\b\fs24 <ul> ... </ul> \b0\fs22 - Tag para listas n\'e3o ordenadas.\par
+\b\fs24 <li> ... </li> \b0\fs22 - Item individual como parte da lista, pode ser usada nas duas tags de listas.\par
+\par
+Podemos fazer altera\'e7\'f5es nas especifica\'e7\'f5es padr\'e3o das listas, alterando valores dos atributos, e assim personalizando as listas. Conhe\'e7a alguns atributos das listas:\par
+\par
+\b\fs24 reversed\b0  \fs22 - Este atributo booleano especifica que as partes desta lista ser\'e3o especificadas em ordem reversa, isto \'e9, a menos importante ser\'e1 listada primeiro.\par
+\par
+\b\fs24 start\b0  \fs22 - Este atributo inteiro especifica o valor inicial para a numera\'e7\'e3o dos itens da lista. Embora o tipo de ordena\'e7\'e3o dos elementos possa ser com algarismos romanos, tal como XXXI, ou letras, o valor inicial sempre \'e9 representado como um inteiro. Para iniciar a contagem a partir da letra "C", utilize <ol start="3">.\par
+\par
+\b\fs24 Type;\par
+\b0\fs22 Indica o tipo de numera\'e7\'e3o:\par
+\lquote a\rquote  \f1\endash\f0  Indica letras min\'fasculas.\par
+\lquote A\rquote  \f1\endash\f0  Indica letras mai\'fasculas.\par
+\lquote i\rquote  \f1\endash\f0  Indica algarismos romanos min\'fasculos.\par
+\lquote I\rquote  \f1\endash\f0  Indica algarismos romanos mai\'fasculos.\par
+\lquote 1\rquote  \f1\endash\f0  Indica n\'fameros (padr\'e3o).\par
+O tipo de marca\'e7\'e3o \'e9 usado na lista inteira, a menos que um atributo type diferente seja utilizado dentro do elemento <li>. \par
+\par
+\b\fs24 PERGUNTAS\par
+\b0\fs22 1) O que \'e9 HTML?\par
+2) O que s\'e3o tags?\par
+3) A tag <head> \'e9 essencial para uso de arquivos externos no documento HTML, quais tipos de\par
+arquivos posso usar para fazer o link atrav\'e9s dessa tag?\par
+4) Qual a fun\'e7\'e3o da tag <a>?\par
+5) O HTML vem se atualizando no decorrer dos anos, qual vers\'e3o estamos atualmente do HTML?\par
+6) Qual tag utilizo para inserir uma imagem na p\'e1gina web?\par
+7) Sabemos que as tags <ul> e <ol>, s\'e3o tags de listas HTML, qual a fun\'e7\'e3o de cada uma delas\par
+respectivamente?\par
+8) Como escrevo um coment\'e1rio em um documento HTML?\par
+9) Quais s\'e3o as tags de estrutura do HTML?\par
+10) Como devo salvar um documento HTML?\par
+---------------------------------------------------------------------------------------------------------------\par
+\b RESPOSTAS\par
+\b0 1) HTML, que significa Linguagem de Marca\'e7\'e3o de Hipertexto, \'e9 uma linguagem de marca\'e7\'e3o usada na cria\'e7\'e3o de p\'e1ginas da web. Ela \'e9 respons\'e1vel por definir a estrutura e o conte\'fado de uma p\'e1gina web, permitindo a organiza\'e7\'e3o e a formata\'e7\'e3o dos elementos que s\'e3o exibidos em um navegador.\par
+\par
+2) Tags s\'e3o comandos ou elementos em HTML que s\'e3o usados para marcar ou envolver partes espec\'edficas do conte\'fado de uma p\'e1gina da web. Elas s\'e3o identificadas por serem delimitadas por sinais de menor que ("<") e maior que (">"). As tags s\'e3o usadas para indicar como o navegador deve renderizar e exibir o conte\'fado, como formatar texto, inserir imagens, criar links, entre outras funcionalidades.\par
+\par
+3) A tag <head> \'e9 essencial para a inclus\'e3o de arquivos externos no documento HTML. Voc\'ea pode usar os seguintes tipos de arquivos por meio dessa tag:\par
+   - Arquivos CSS (Cascading Style Sheets) para definir o estilo e a formata\'e7\'e3o da p\'e1gina.\par
+   - Arquivos JavaScript para adicionar interatividade e funcionalidades \'e0 p\'e1gina.\par
+   - \'cdcones de favoritos (favicon) para exibir um \'edcone na guia do navegador.\par
+\par
+4) A tag <a> \'e9 usada para criar hiperlinks em uma p\'e1gina HTML. Ela permite que os usu\'e1rios cliquem em um texto ou imagem para navegar para outra p\'e1gina da web, um arquivo ou um recurso online. Ela \'e9 essencial para a cria\'e7\'e3o de links em p\'e1ginas da web.\par
+\par
+5) A vers\'e3o mais recente do HTML \'e9 a HTML5 (HTML 5.0). O HTML5 trouxe v\'e1rias melhorias em rela\'e7\'e3o \'e0s vers\'f5es anteriores, incluindo suporte a elementos sem\'e2nticos, \'e1udio e v\'eddeo incorporados, gr\'e1ficos em canvas e recursos avan\'e7ados de formul\'e1rios.\par
+\par
+6) Para inserir uma imagem em uma p\'e1gina web, voc\'ea usa a tag <img>. Voc\'ea deve especificar a localiza\'e7\'e3o da imagem usando o atributo "src" (source), como este exemplo: `<img src="caminho/para/imagem.jpg" alt="Texto alternativo">`. O atributo "alt" fornece um texto alternativo que \'e9 exibido caso a imagem n\'e3o possa ser carregada e \'e9 usado para fins de acessibilidade.\par
+\par
+7) As tags <ul> e <ol> s\'e3o usadas para criar listas em HTML. A fun\'e7\'e3o de cada uma delas \'e9 a seguinte:\par
+   - <ul> (Unordered List): Cria uma lista n\'e3o ordenada, na qual os itens da lista s\'e3o marcados com marcadores (geralmente pontos).\par
+   - <ol> (Ordered List): Cria uma lista ordenada, na qual os itens da lista s\'e3o numerados sequencialmente ou em um estilo personaliz\'e1vel, como letras ou algarismos romanos.\par
+\par
+8) Para escrever um coment\'e1rio em um documento HTML, voc\'ea usa a seguinte sintaxe: `<!-- Seu coment\'e1rio aqui -->`. Coment\'e1rios em HTML n\'e3o s\'e3o vis\'edveis na p\'e1gina da web e s\'e3o usados para adicionar notas ou explica\'e7\'e3o no c\'f3digo para os desenvolvedores.\par
+\par
+9) As principais tags de estrutura do HTML incluem:\par
+   - <html>: Indica que a p\'e1gina foi escrita em HTML e \'e9 a tag raiz.\par
+   - <head>: Define o cabe\'e7alho da p\'e1gina e cont\'e9m informa\'e7\'f5es sobre a p\'e1gina, como o t\'edtulo e metadados.\par
+   - <title>: Define o t\'edtulo da p\'e1gina exibido na barra de t\'edtulo do navegador.\par
+   - <body>: Cont\'e9m todo o conte\'fado vis\'edvel da p\'e1gina.\par
+   - <div>: Usada para agrupar elementos e aplicar estilos (CSS) a eles.\par
+   - <header>, <footer>, <main>, <article>, <aside>, <section>, <figure>, <figcaption>, <nav>, <wbr>: Tags sem\'e2nticas que ajudam a estruturar o conte\'fado da p\'e1gina de forma mais significativa.\par
+\par
+10) Um documento HTML deve ser salvo com a extens\'e3o ".html" ou ".htm" para que o navegador reconhe\'e7a que se trata de um arquivo HTML. Voc\'ea pode salvar o arquivo usando qualquer editor de texto ou ambiente de desenvolvimento web. Certifique-se de que o conte\'fado do documento est\'e1 correto e que as tags est\'e3o devidamente fechadas e aninhadas antes de salvar o arquivo.\par
+\par
+DESAFIO\par
+Crie uma p\'e1gina em html como se fosse seu perfil com sua foto, nome e algumas se\'e7\'f5es que diz um pouco sobre voc\'ea.\par
+}
+ 
